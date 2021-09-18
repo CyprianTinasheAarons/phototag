@@ -14,6 +14,10 @@ const routes: Routes = [
   {
     path: 'capture',
     loadChildren: () => import('./capture/capture.module').then( m => m.CapturePageModule)
+  },
+  {
+    path: 'view',
+    loadChildren: () => import('./view/view.module').then( m => m.ViewPageModule)
   }
 ];
 

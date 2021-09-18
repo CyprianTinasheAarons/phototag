@@ -3,6 +3,9 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
+// eslint-disable-next-line @typescript-eslint/dot-
+// notation
+window['CESIUM_BASE_URL'] = '/assets/cesium/';
 
 if (environment.production) {
   enableProdMode();

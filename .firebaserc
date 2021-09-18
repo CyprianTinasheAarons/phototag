@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "phototag-2ac35": {
+      "hosting": {
+        "app": [
+          "phototag-2ac35"
+        ]
+      }
+    }
+  }
+}
